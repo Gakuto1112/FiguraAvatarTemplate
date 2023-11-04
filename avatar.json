@@ -1,0 +1,9 @@
+{
+	"name": "<avatar_name>",
+	"description": "<avatar_description>",
+	"author": "Gakuto1112",
+	"version": "0.1.2",
+	"autoScripts": [
+		"scripts/index.lua"
+	]
+}
