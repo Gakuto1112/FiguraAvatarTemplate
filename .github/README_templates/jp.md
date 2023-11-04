@@ -29,3 +29,10 @@ READMEは[Github Actions](https://github.co.jp/features/actions)によって、`
 README内で画像を挿入する場合は、画像を`.github/README_images`配下に置いて下さい（例：`![画像](../README_images/image.jpg)`）。これ以外の画像は、Github Actionsによって処理されません（README生成時にリンクが切れる場合があります）。
 
 READMEにはGithub Actionsによって自動的に挿入されるテンプレート文があります。詳しくは[こちら](https://github.com/Gakuto1112/FiguraAvatarsReadmeTemplate)をご覧下さい。
+
+## アバターを新規作成した後にやること
+1. このレポジトリの変数に`TARGET_BRANCHES`という名前でREADMEを生成する対象のブランチの配列を定義する（例：`["Senko", "Shiro", "Suzu"]`）。
+2. レポジトリ"FiguraAvatarsReadmeTemplate"の変数`TARGET_REPOSITORIES`に新規アバターのレポジトリを追加する（Gakuto1112のみ）。
+
+## アバターのブランチを増やした後にやること
+1. このレポジトリの変数`TARGET_BRANCHES`に増やしたアバターのブランチを追加する。
