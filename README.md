@@ -1,0 +1,2 @@
+# FiguraAvatarTemplate
+Figuraアバターのテンプレートレポジトリ
