@@ -5,6 +5,9 @@
 ### avatar.json
 アバターのメタファイルです。これがないとFiguraにアバターとして認識されません（逆にこれさえあればアバターとして認識されます）。ファイル内の構造については[こちら](https://wiki.figuramc.org/tutorials/Avatar%20Metadata)をご覧下さい。
 
+### avatar.png
+アバターのサムネイル画像です。アバターリストに表示されます。
+
 ### models
 アバターのモデルファイルが格納されるディレクトリです。モデルは[Blockbench](https://www.blockbench.net/)で作成します。
 
