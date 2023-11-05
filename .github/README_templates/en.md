@@ -23,12 +23,12 @@ The directory to store README files, workflow files for [Github Actions](https:/
 ### .gitignore
 The list of files/directories to exclude from the [Git](https://git-scm.com/) management system. The file is not related to the avatar.
 
-## READMEの編集について
-READMEは[Github Actions](https://github.co.jp/features/actions)によって、`.github/README_templates`から`.github/README.md`と`.github/README_jp.md`が生成されます。`.github/README_templates`配下のファイルが変更されるとGithub Actionsが動作する為、READMEを編集する場合は、`.github/README_templates`配下のファイルを編集して下さい。`.github/README.md`や`.github/README_jp.md`は編集しないで下さい。Github Actionsによって上書きされます。また、`.github/README_templates`配下のファイルは削除しないで下さい。Github Actionsのワークフローでエラーが発生します。
+## Editing README
+READMEs are generated from `.github/README_templates` to `.github/README.md` and `.github/README_jp.md` by [Github Actions](https://github.co.jp/features/actions). Please edit READMEs under `.github/README_templates` and don't edit `.github/README.md` and `.github/README_jp.md` because changing files under `.github/README_templates` will trigger Github Actions and it overrides `.github/README.md` and `.github/README_jp.md`. And, please don't delete any files under `.github/README_templates`. If you delete them, Github Actions will result in an error.
 
-README内で画像を挿入する場合は、画像を`.github/README_images`配下に置いて下さい（例：`![画像](../README_images/image.jpg)`）。これ以外の画像は、Github Actionsによって処理されません（README生成時にリンクが切れる場合があります）。
+Please put images under `.github/README_images` if you want to add images in the README (ex: `![The image](../README_images/image.jpg)`). Images outside `.github/README_images` won't be processed by Github Actions (Image urls may be invalid when generating READMEs).
 
-READMEにはGithub Actionsによって自動的に挿入されるテンプレート文があります。詳しくは[こちら](https://github.com/Gakuto1112/FiguraAvatarsReadmeTemplate)をご覧下さい。
+There are some template phrases which are automatically inserted by Github Actions. Please see [this](https://github.com/Gakuto1112/FiguraAvatarsReadmeTemplate) for more information.
 
 ## アバターを新規作成した後にやること
 1. このレポジトリの変数に`TARGET_BRANCHES`という名前でREADMEを生成する対象のブランチの配列を定義する（例：`["Senko", "Shiro", "Suzu"]`）。
