@@ -34,6 +34,6 @@ There are some template phrases which are automatically inserted by Github Actio
 1. Add a new repository variable as `TARGET_BRANCHES` and define an array of branches for which READMEs are to be generated (e.g., `["Senko", "Shiro", "Suzu"]`).
 2. Add the new avatar repository to the repository variable `TARGET_REPOSITORIES` in the repository "FiguraAvatarsReadmeTemplate" (for Gakuto1112 only).
 
-## アバターのブランチを増やした後にやること
-1. `.github/workflows/generate_readme.yaml`の`on`->`push`->`branches`に増やしたアバターのブランチを追加する。
-2. このレポジトリの変数`TARGET_BRANCHES`に増やしたアバターのブランチを追加する。
+## Things to do after adding a new avatar branch
+1. Add the added avatar branch to `on`->`push`->`branches` in `.github/workflows/generate_readme.yaml`.
+2. Add the added avatar branch to repository variable `TARGET_BRANCHES` of this repository.
