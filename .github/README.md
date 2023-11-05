@@ -1,42 +1,39 @@
 # FiguraAvatarTemplate
-[Minecraft](https://www.minecraft.net/ja-jp)のスキンMod「[Figura](https://modrinth.com/mod/figura)」のアバターのテンプレートレポジトリです。
+This is a template repository for [Figura](https://modrinth.com/mod/figura),  skin mod for [Minecraft](https://www.minecraft.net/en-us).
 
-## このファイル（.github/README_templates/en.md）について
-このファイルは英語版READMEです。日本語のREADMEを英訳してこのファイルに上書きして下さい。
-
-## レポジトリ構成
+## Repository structure
 ### avatar.json
-アバターのメタファイルです。これがないとFiguraにアバターとして認識されません（逆にこれさえあればアバターとして認識されます）。ファイル内の構造については[こちら](https://wiki.figuramc.org/tutorials/Avatar%20Metadata)をご覧下さい。
+The meta file for the avatar. Figura won't recognize this repository as an avatar if this file doesn't exist. On the contrary, Figura will recognize this repository as an avatar even if only this file exists. Please see [this](https://wiki.figuramc.org/tutorials/Avatar%20Metadata) for more information.
 
 ### avatar.png
-アバターのサムネイル画像です。アバターリストに表示されます。
+The thumbnail for the avatar. Shown in the avatar list.
 
 ### models
-アバターのモデルファイルが格納されるディレクトリです。モデルは[Blockbench](https://www.blockbench.net/)で作成します。
+The directory to store avatar models. They are created with [Blockbench](https://www.blockbench.net/).
 
 ### textures
-アバターのモデルのテクスチャファイルが格納されるディレクトリです。
+The directory to store textures of avatar models.
 
 ### scripts
-アバターのスクリプトファイルが格納されるディレクトリです。言語はLuaです。Figuraが提供するLua APIについては[こちら](https://applejuiceyy.github.io/figs/)をご覧下さい。
+The directory to store scripts. The language for them is Lua. Please see [this](https://applejuiceyy.github.io/figs/) for about the Lua API provided by Figura.
 
 ### .github
-READMEファイルや[Github Actions](https://github.co.jp/features/actions)のワークフローファイル等が格納されるディレクトリです。アバターには関係のないディレクトリです。
+The directory to store README files, workflow files for [Github Actions](https://github.co.jp/features/actions), and etc. The directory is not related to the avatar.
 
 ### .gitignore
-アバターのディレクトリを[Git](https://git-scm.com/)管理する上で管理対象外にするファイル/ディレクトリの一覧です。アバターには関係のないファイルです。
+The list of files/directories to exclude from the [Git](https://git-scm.com/) management system. The file is not related to the avatar.
 
-## READMEの編集について
-READMEは[Github Actions](https://github.co.jp/features/actions)によって、`.github/README_templates`から`.github/README.md`と`.github/README_jp.md`が生成されます。`.github/README_templates`配下のファイルが変更されるとGithub Actionsが動作する為、READMEを編集する場合は、`.github/README_templates`配下のファイルを編集して下さい。`.github/README.md`や`.github/README_jp.md`は編集しないで下さい。Github Actionsによって上書きされます。また、`.github/README_templates`配下のファイルは削除しないで下さい。Github Actionsのワークフローでエラーが発生します。
+## Editing README
+READMEs are generated from `.github/README_templates` to `.github/README.md` and `.github/README_jp.md` by [Github Actions](https://github.co.jp/features/actions). Please edit READMEs under `.github/README_templates` and don't edit `.github/README.md` and `.github/README_jp.md` because changing files under `.github/README_templates` will trigger Github Actions and it overrides `.github/README.md` and `.github/README_jp.md`. And, please don't delete any files under `.github/README_templates`. If you delete them, Github Actions will result in an error.
 
-README内で画像を挿入する場合は、画像を`.github/README_images`配下に置いて下さい（例：`![画像](./README_images/image.jpg)`）。これ以外の画像は、Github Actionsによって処理されません（README生成時にリンクが切れる場合があります）。
+Please put images under `.github/README_images` if you want to add images in the README (e.g., `![The image](./README_images/image.jpg)`). Images outside `.github/README_images` won't be processed by Github Actions (Image urls may be invalid when generating READMEs).
 
-READMEにはGithub Actionsによって自動的に挿入されるテンプレート文があります。詳しくは[こちら](https://github.com/Gakuto1112/FiguraAvatarsReadmeTemplate)をご覧下さい。
+There are some template phrases which are automatically inserted by Github Actions. Please see [this](https://github.com/Gakuto1112/FiguraAvatarsReadmeTemplate) for more information.
 
-## アバターを新規作成した後にやること
-1. このレポジトリの変数に`TARGET_BRANCHES`という名前でREADMEを生成する対象のブランチの配列を定義する（例：`["Senko", "Shiro", "Suzu"]`）。
-2. レポジトリ"FiguraAvatarsReadmeTemplate"の変数`TARGET_REPOSITORIES`に新規アバターのレポジトリを追加する（Gakuto1112のみ）。
+## Things to do after creating a new avatar
+1. Add a new repository variable as `TARGET_BRANCHES` and define an array of branches for which READMEs are to be generated (e.g., `["Senko", "Shiro", "Suzu"]`).
+2. Add the new avatar repository to the repository variable `TARGET_REPOSITORIES` in the repository "FiguraAvatarsReadmeTemplate" (for Gakuto1112 only).
 
-## アバターのブランチを増やした後にやること
-1. `.github/workflows/generate_readme.yaml`の`on`->`push`->`branches`に増やしたアバターのブランチを追加する。
-2. このレポジトリの変数`TARGET_BRANCHES`に増やしたアバターのブランチを追加する。
+## Things to do after adding a new avatar branch
+1. Add the added avatar branch to `on`->`push`->`branches` in `.github/workflows/generate_readme.yaml`.
+2. Add the added avatar branch to repository variable `TARGET_BRANCHES` of this repository.
