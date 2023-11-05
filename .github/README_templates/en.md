@@ -1,8 +1,5 @@
 # FiguraAvatarTemplate
-[Minecraft](https://www.minecraft.net/ja-jp)のスキンMod「[Figura](https://modrinth.com/mod/figura)」のアバターのテンプレートレポジトリです。
-
-## このファイル（.github/README_templates/en.md）について
-このファイルは英語版READMEです。日本語のREADMEを英訳してこのファイルに上書きして下さい。
+This is a template repository for [Figura](https://modrinth.com/mod/figura),  skin mod for [Minecraft](https://www.minecraft.net/en-us).
 
 ## レポジトリ構成
 ### avatar.json
