@@ -7,13 +7,13 @@ on:
     paths:
       - .github/README_templates/**
       - .github/README_images/**
-      - .github/workflows/generate_readme.yaml
+      - .github/workflows/generate_readme.yml
 
 jobs:
   generate-readme:
     name: Generate README
     permissions:
       contents: write
-    uses: Gakuto1112/FiguraAvatarsReadmeTemplate/.github/workflows/generate_my_figura_avatar_readme.yaml@main
+    uses: Gakuto1112/FiguraAvatarsReadmeTemplate/.github/workflows/generate_my_figura_avatar_readme.yml@main
     with:
       branch-name: ${{ github.ref_name }}

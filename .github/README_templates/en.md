@@ -35,5 +35,5 @@ There are some template phrases which are automatically inserted by Github Actio
 2. Add the new avatar repository to the repository variable `TARGET_REPOSITORIES` in the repository "FiguraAvatarsReadmeTemplate" (for Gakuto1112 only).
 
 ## Things to do after adding a new avatar branch
-1. Add the added avatar branch to `on`->`push`->`branches` in `.github/workflows/generate_readme.yaml`.
+1. Add the added avatar branch to `on`->`push`->`branches` in `.github/workflows/generate_readme.yml`.
 2. Add the added avatar branch to repository variable `TARGET_BRANCHES` of this repository.

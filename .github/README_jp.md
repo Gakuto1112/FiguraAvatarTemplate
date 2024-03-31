@@ -35,5 +35,5 @@ READMEにはGithub Actionsによって自動的に挿入されるテンプレー
 2. レポジトリ"FiguraAvatarsReadmeTemplate"の変数`TARGET_REPOSITORIES`に新規アバターのレポジトリを追加する（Gakuto1112のみ）。
 
 ## アバターのブランチを増やした後にやること
-1. `.github/workflows/generate_readme.yaml`の`on`->`push`->`branches`に増やしたアバターのブランチを追加する。
+1. `.github/workflows/generate_readme.yml`の`on`->`push`->`branches`に増やしたアバターのブランチを追加する。
 2. このレポジトリの変数`TARGET_BRANCHES`に増やしたアバターのブランチを追加する。
