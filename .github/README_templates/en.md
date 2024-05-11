@@ -38,4 +38,5 @@ There are some template phrases which are automatically inserted by Github Actio
 
 ## Things to do after adding a new avatar branch
 1. Add the added avatar branch to `on`->`push`->`branches` in `.github/workflows/generate_readme.yml`.
+   - You can specify avatar branches easier with wildcards.
 2. Add the added avatar branch to repository variable `TARGET_BRANCHES` of this repository.
