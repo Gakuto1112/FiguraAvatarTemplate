@@ -1,3 +1,5 @@
+<!-- $inject(locale_link) -->
+
 # FiguraAvatarTemplate
 This is a template repository for [Figura](https://modrinth.com/mod/figura),  skin mod for [Minecraft](https://www.minecraft.net/en-us).
 

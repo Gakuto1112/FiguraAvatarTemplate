@@ -1,3 +1,5 @@
+<!-- $inject(locale_link) -->
+
 # FiguraAvatarTemplate
 [Minecraft](https://www.minecraft.net/ja-jp)のスキンMod「[Figura](https://modrinth.com/mod/figura)」のアバターのテンプレートレポジトリです。
 
