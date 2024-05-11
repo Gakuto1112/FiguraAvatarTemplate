@@ -1,3 +1,5 @@
+言語: 　[English](./README.md)　|　**日本語**
+
 # FiguraAvatarTemplate
 [Minecraft](https://www.minecraft.net/ja-jp)のスキンMod「[Figura](https://modrinth.com/mod/figura)」のアバターのテンプレートレポジトリです。
 
@@ -36,4 +38,5 @@ READMEにはGithub Actionsによって自動的に挿入されるテンプレー
 
 ## アバターのブランチを増やした後にやること
 1. `.github/workflows/generate_readme.yml`の`on`->`push`->`branches`に増やしたアバターのブランチを追加する。
+   - ワイルドカードによるブランチの指定が可能であれば、そちらの方が後々楽です。
 2. このレポジトリの変数`TARGET_BRANCHES`に増やしたアバターのブランチを追加する。
