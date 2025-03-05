@@ -1,10 +1,10 @@
 {
 	"meta": {
-		"format_version": "4.5",
+		"format_version": "4.10",
 		"model_format": "free",
 		"box_uv": true
 	},
-	"name": "",
+	"name": "main",
 	"model_identifier": "",
 	"visible_box": [1, 1, 0],
 	"variable_placeholders": "",
@@ -21,6 +21,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-4, 24, -4],
@@ -62,6 +63,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-4, 24, -4],
@@ -105,6 +107,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-4, 12, -2],
@@ -147,6 +150,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-4, 12, -2],
@@ -191,6 +195,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [4, 12, -2],
@@ -233,6 +238,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [4, 12, -2],
@@ -276,6 +282,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-7, 12, -2],
@@ -318,6 +325,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-7, 12, -2],
@@ -361,6 +369,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-0.1, 0, -2],
@@ -403,6 +412,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-0.1, 0, -2],
@@ -446,6 +456,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-3.9, 0, -2],
@@ -488,6 +499,7 @@
 			"box_uv": true,
 			"rescale": false,
 			"locked": false,
+			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
 			"from": [-3.9, 0, -2],
@@ -539,6 +551,7 @@
 			"locked": false,
 			"visibility": true,
 			"autouv": 0,
+			"selected": false,
 			"children": [
 				{
 					"name": "Head",
@@ -551,6 +564,7 @@
 					"locked": false,
 					"visibility": true,
 					"autouv": 0,
+					"selected": false,
 					"children": ["5428c73c-8069-a909-c9ee-cd794c62f48c", "89dcbe63-78b6-3cc8-3a37-c0b3cc22a308"]
 				},
 				{
@@ -564,6 +578,7 @@
 					"locked": false,
 					"visibility": true,
 					"autouv": 0,
+					"selected": false,
 					"children": [
 						{
 							"name": "Body",
@@ -576,6 +591,7 @@
 							"locked": false,
 							"visibility": true,
 							"autouv": 0,
+							"selected": false,
 							"children": ["31c28b4f-decc-9bb4-10cf-2fea6da04d0f", "c19640f6-5b96-99e6-b15f-f06431d78013"]
 						},
 						{
@@ -589,6 +605,7 @@
 							"locked": false,
 							"visibility": true,
 							"autouv": 0,
+							"selected": false,
 							"children": [
 								{
 									"name": "RightArm",
@@ -601,6 +618,7 @@
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
+									"selected": false,
 									"children": ["0988b61d-598b-71b3-6465-084cbd0af7ee", "cf74ebe4-a9c6-19e0-ee1d-8e9e519303de"]
 								},
 								{
@@ -614,6 +632,7 @@
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
+									"selected": false,
 									"children": ["926195be-3395-f497-4820-773feb1dd58e", "f3b73549-5fdd-5723-4670-3dfb3da0ea29"]
 								}
 							]
@@ -631,6 +650,7 @@
 					"locked": false,
 					"visibility": true,
 					"autouv": 0,
+					"selected": false,
 					"children": [
 						{
 							"name": "Legs",
@@ -643,6 +663,7 @@
 							"locked": false,
 							"visibility": true,
 							"autouv": 0,
+							"selected": false,
 							"children": [
 								{
 									"name": "RightLeg",
@@ -655,6 +676,7 @@
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
+									"selected": false,
 									"children": ["05c682a2-87cb-ee95-5402-85f806ff9b9f", "2d13ca1e-7fc0-67e2-f16a-1536b0bd6d22"]
 								},
 								{
@@ -668,6 +690,7 @@
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
+									"selected": false,
 									"children": ["71fabdd4-87f1-f7a0-610d-3ca9665b29a3", "62219e23-c2fa-0da0-922c-ef2fb1b554e1"]
 								}
 							]
@@ -679,24 +702,33 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\gakut\\AppData\\Roaming\\com.modrinth.theseus\\profiles\\Fabricバニラ\\figura\\avatars\\FiguraAvatarTemplate\\textures\\main.png",
+			"path": "C:\\Users\\gakut\\AppData\\Roaming\\ModrinthApp\\profiles\\Fabricバニラ\\figura\\avatars\\FiguraAvatarTemplate\\textures\\main.png",
 			"name": "main.png",
 			"folder": "",
 			"namespace": "",
 			"id": "0",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
 			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
 			"render_mode": "default",
 			"render_sides": "auto",
+			"pbr_channel": "color",
 			"frame_time": 1,
 			"frame_order_type": "loop",
 			"frame_order": "",
 			"frame_interpolate": false,
 			"visible": true,
-			"mode": "bitmap",
+			"internal": true,
 			"saved": true,
 			"uuid": "2713bf1c-6165-3ab5-c417-803a78639fe1",
-			"relative_path": "../../textures/main.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"relative_path": "../textures/main.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAiBJREFUeF7tW71OwzAQdiQkkLLTSEEIBBIPwNKdkY2FR2DnOWgHmJj6BDDxEBUSWxckJH5EpBSxdmACWWmEe7i+RLWxk3xdOji9XD9/d/ddfIkE87mbvH6bLhkNrowWbkYXEXcPn+uscxKA/v6W1sfx07uQAKS9RLueTXMBAMAAhAAbZsgBHhFgdwdJsO1l8CgfGOt8MjkzEvT6/tK4vnb6aVzf2BuyLHQZIZEEoN/b1Nf56YeQAOwksXb9JZ8JCUC8u61dnz2/CQnAenqgXf/KHgUAaAIDzg8LBtxmxUaepMX38KEjDOg8AMgBbU+CpjLT+jJI/zzt/2m/z7W3rp8fqPZV3zi/lm3yHxGiSl/a71fp711L59K+6lsVvwDAEgS0DFCvbX0I0F6AJj2q9am2P47nqmiOWt2kyfUKJvsm36pK7IVeYEy0P9X6VNtLLS8dLHsJ+nvKOs4evd5k32SrTo8BANRuEAxACCz2/1zMIgcgCaIKoAxCB7RBCKkKrHNS2OUz9ybY9nooEQJAACCEXfDpAxjgE/0Q7g0GhLALPn0AA3yiH8K9wYAQdsGnD2CAT/RDuDcYEMIu+PTBOgNszhfYOP/nwHUCQPl+wSrzBbbO/wEAg4ATBtiaL2hECLicL7Bx/u88BFydLts6/wcArnMAGKCM29scsEAIkHcR1PmkOjNAyAHIAWYEVhZCSIJIgr8vXXW2CriaL/gPKfwD+Yt8jJMCIpwAAAAASUVORK5CYII="
 		}
 	]
 }
