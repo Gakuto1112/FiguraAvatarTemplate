@@ -17,7 +17,7 @@
 アバターのモデルのテクスチャファイルが格納されるディレクトリです。
 
 ### scripts
-アバターのスクリプトファイルが格納されるディレクトリです。言語はLuaです。Figuraが提供するLua APIについては[こちら](https://applejuiceyy.github.io/figs/)をご覧下さい。
+アバターのスクリプトファイルが格納されるディレクトリです。言語はLuaです。Figuraが提供するLua APIについては[こちら](https://applejuiceyy.github.io/figs/)をご覧下さい。また、サンプルスクリプトの解説はスクリプトファイル内に記述されています。
 
 ### .github
 READMEファイルや[Github Actions](https://github.co.jp/features/actions)のワークフローファイル等が格納されるディレクトリです。アバターには関係のないディレクトリです。

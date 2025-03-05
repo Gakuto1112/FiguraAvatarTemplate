@@ -17,7 +17,7 @@ The directory to store avatar models. They are created with [Blockbench](https:/
 The directory to store textures of avatar models.
 
 ### scripts
-The directory to store scripts. The language for them is Lua. Please see [this](https://applejuiceyy.github.io/figs/) for about the Lua API provided by Figura.
+The directory to store scripts. The language for them is Lua. Please see [this](https://applejuiceyy.github.io/figs/) for about the Lua API provided by Figura. In addition, explanations of the sample scripts are described in the script files.
 
 ### .github
 The directory to store README files, workflow files for [Github Actions](https://github.co.jp/features/actions), and etc. The directory is not related to the avatar.
