@@ -15,18 +15,20 @@ The directory to store avatar models. They are created with [Blockbench](https:/
 
 ### textures
 The directory to store textures of avatar models.
+The png textures contained here will be compressed by [Github Actions](https://github.co.jp/features/actions), reducing the file size by 50% to 75%.
+If you do not need texture compression, please remove `.github/workflows/compress_textures.yml`.
 
 ### scripts
 The directory to store scripts. The language for them is Lua. Please see [this](https://applejuiceyy.github.io/figs/) for about the Lua API provided by Figura. In addition, explanations of the sample scripts are described in the script files.
 
 ### .github
-The directory to store README files, workflow files for [Github Actions](https://github.co.jp/features/actions), and etc. The directory is not related to the avatar.
+The directory to store README files, workflow files for Github Actions, and etc. The directory is not related to the avatar.
 
 ### .gitignore
 The list of files/directories to exclude from the [Git](https://git-scm.com/) management system. The file is not related to the avatar.
 
 ## Editing README
-READMEs are generated from `.github/README_templates` to `.github/README.md` and `.github/README_jp.md` by [Github Actions](https://github.co.jp/features/actions). Please edit READMEs under `.github/README_templates` and don't edit `.github/README.md` and `.github/README_jp.md` because changing files under `.github/README_templates` will trigger Github Actions and it overrides `.github/README.md` and `.github/README_jp.md`. And, please don't delete any files under `.github/README_templates`. If you delete them, Github Actions will result in an error.
+READMEs are generated from `.github/README_templates` to `.github/README.md` and `.github/README_jp.md` by Github Actions. Please edit READMEs under `.github/README_templates` and don't edit `.github/README.md` and `.github/README_jp.md` because changing files under `.github/README_templates` will trigger Github Actions and it overrides `.github/README.md` and `.github/README_jp.md`. And, please don't delete any files under `.github/README_templates`. If you delete them, Github Actions will result in an error.
 
 Please put images under `.github/README_images` if you want to add images in the README (e.g., `![The image](./README_images/image.jpg)`). Images outside `.github/README_images` won't be processed by Github Actions (Image urls may be invalid when generating READMEs).
 
