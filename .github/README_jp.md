@@ -15,20 +15,18 @@
 
 ### textures
 アバターのモデルのテクスチャファイルが格納されるディレクトリです。
-ここに入っているpng画像は[Github Actions](https://github.co.jp/features/actions)によって圧縮され、50%～75%のファイルサイズの削減を行います。
-圧縮が不要な場合は、`.github/workflows/compress_textures.yml`を削除してください。
 
 ### scripts
-アバターのスクリプトファイルが格納されるディレクトリです。言語はLuaです。Figuraが提供するLua APIについては[こちら](https://applejuiceyy.github.io/figs/)をご覧下さい。また、サンプルスクリプトの解説はスクリプトファイル内に記述されています。
+アバターのスクリプトファイルが格納されるディレクトリです。言語はLuaです。Figuraが提供するLua APIについては[こちら](https://applejuiceyy.github.io/figs/)をご覧下さい。
 
 ### .github
-READMEファイルやGithub Actionsのワークフローファイル等が格納されるディレクトリです。アバターには関係のないディレクトリです。
+READMEファイルや[Github Actions](https://github.co.jp/features/actions)のワークフローファイル等が格納されるディレクトリです。アバターには関係のないディレクトリです。
 
 ### .gitignore
 アバターのディレクトリを[Git](https://git-scm.com/)管理する上で管理対象外にするファイル/ディレクトリの一覧です。アバターには関係のないファイルです。
 
 ## READMEの編集について
-READMEはGithub Actionsによって、`.github/README_templates`から`.github/README.md`と`.github/README_jp.md`が生成されます。`.github/README_templates`配下のファイルが変更されるとGithub Actionsが動作する為、READMEを編集する場合は、`.github/README_templates`配下のファイルを編集して下さい。`.github/README.md`や`.github/README_jp.md`は編集しないで下さい。Github Actionsによって上書きされます。また、`.github/README_templates`配下のファイルは削除しないで下さい。Github Actionsのワークフローでエラーが発生します。
+READMEは[Github Actions](https://github.co.jp/features/actions)によって、`.github/README_templates`から`.github/README.md`と`.github/README_jp.md`が生成されます。`.github/README_templates`配下のファイルが変更されるとGithub Actionsが動作する為、READMEを編集する場合は、`.github/README_templates`配下のファイルを編集して下さい。`.github/README.md`や`.github/README_jp.md`は編集しないで下さい。Github Actionsによって上書きされます。また、`.github/README_templates`配下のファイルは削除しないで下さい。Github Actionsのワークフローでエラーが発生します。
 
 README内で画像を挿入する場合は、画像を`.github/README_images`配下に置いて下さい（例：`![画像](./README_images/image.jpg)`）。これ以外の画像は、Github Actionsによって処理されません（README生成時にリンクが切れる場合があります）。
 
